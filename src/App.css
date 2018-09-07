@@ -1,0 +1,54 @@
+.app{
+  background-color: slategray;
+  width: 100%
+}
+.container {
+  margin-top: 0px;
+  text-align: center;
+  background-color: slategray;
+  width: 70%;
+  height: 10000px;
+  margin: 0 auto;
+}
+@media(max-width: 768px){
+  .container {
+    max-width: 720px;
+    /* background-color: green; */
+}
+}
+@media(max-width: 900px){
+  .nav2{
+    visibility: hidden;
+  }
+}
+@media(min-width: 900px){
+  .f{
+    visibility: hidden;
+    display: none;
+  }
+}
+.f{
+  width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0 0 450px;
+}
+
+.header{
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+.nav{
+  display: flex;
+  justify-content: space-around;  
+  width: 400px;
+}
+
+
+
+
+h1 {
+  margin: 0
+}
